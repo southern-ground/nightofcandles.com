@@ -5,6 +5,74 @@
     "prod": "http://nightofcandles.com.s3-website-us-east-1.amazonaws.com",
     "stage": "http://stage.nightofcandles.com.s3-website-us-east-1.amazonaws.com"
   },
+  "sections": {
+    "header":{
+      "img": "/img/fayetteville_header_16.png",
+      "alt": "Southern Ground Presents Night Of Chandles, Benefiting Camp Southern Ground - Featuring Zac Brown Band - Oct 15, 2016 - Southern Ground Amphitheater, Fayetteville, GA",
+      "link": "http://www.campsouthernground.org",
+      "link_text": "Camp Southern Ground"
+    },
+    "sponsors": {
+      "sponsor_header":{
+        "img": "/img/thank-you-to-our-sponsors.png",
+        "alt": "Thank You to Our Sponsors"
+      },
+      "presenting_sponsor_image":{
+        "img": "/img/presenting-sponsor.png",
+        "alt": "Presenting Sponsor"
+      },
+      "presenting_sponsor": {
+        "img": "/img/sponsors/presenting-sponsor-ariel.png",
+        "alt": "Ariel Seafoods, Inc."
+      },
+      "patron_sponsors_image":{
+        "img": "/img/patron_sponsors.png",
+        "alt": "Patron Sponsors"
+      },
+      "patron_sponsors": [
+        {
+          "img": "/img/sponsors/sponsor-0-sesac.png",
+          "alt": "Sesac"
+        },
+        {
+          "img": "/img/sponsors/sponsor-1-hr-dunn.png",
+          "alt": "The Family of H. R. Dunn Arencibia"
+        },
+        {
+          "img": "/img/sponsors/sponsor-2-coldfreight.png",
+          "alt": "Cold Freight Service"
+        },
+        {
+          "img": "/img/sponsors/sponsor-3-peachtree.png",
+          "alt": "Peachtree Tents and Events"
+        },
+        {
+          "img": "/img/sponsors/sponor-4-144th.png",
+          "alt": "144th Marketing Group"
+        },
+        {
+          "img": "/img/sponsors/sponsor-5-dpr.png",
+          "alt": "DPR Construction"
+        },
+        {
+          "img": "/img/sponsors/sponsor-6-structor.png",
+          "alt": "Structor Group"
+        },
+        {
+          "img": "/img/sponsors/sponsor-7-redmond.png",
+          "alt": "Redmond Machinery"
+        },
+        {
+          "img": "/img/sponsors/sponsor-8-jimmy-and-amanda.png",
+          "alt": "Jimmy and Amanda Harrell"
+        }
+      ]
+    },
+    "footer": {
+      "food_copy": "Food + Adult Beverages Will Be Available For Purchase",
+      "skull_copy": "Night of Candles with Zac Brown Band"
+    }
+  },
   "social": {
     "socialMediaImage": "http://tbd",
     "platformUrls": {

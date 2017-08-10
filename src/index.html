@@ -143,17 +143,91 @@
     </nav>
 </header>
 <div id="content">
-    <section class="header">
-        <h1>{{longSiteTitle}}</h1>
-        Coming Soon &#133;
+    <section>
+        <!-- Header -->
+        <h1><img
+                class="header__image"
+                alt="{{sections.header.alt}}"
+                src="{{localizedCdn()}}{{sections.header.img}}">
+            <a href="{{sections.header.link}}"
+               class="off"
+               target="_blank">{{sections.header.link_text}}</a>
+        </h1>
     </section>
-    <footer>
-        <div>
-            &copy;2017 {{longSiteTitle}}
-        </div>
-    </footer>
+    <section>
+        <!-- Tickets -->
+        <ul class="tickets-list">
+            <li class="ticket-list-item">
+                <a class="tickets"
+                   href="http://southerngroundtailgate.shop.ticketstoday.com/"
+                   target="_blank">
+                    <span class="off">Tickets Available Now!</span>
+                </a>
+            </li>
+            <li class="ticket-list-item">
+                <a class="download"
+                   href="https://zacbrownbandcom.s3.amazonaws.com/2016NightofCandlesSponsorForm.pdf"
+                   target="_blank">
+                    <span class="off">Charity event benefiting Camp Southern Ground - Become a sponsor! Download Form -
+                        Campsoutherground.org, a 501(c)(3) not-for-profit organization</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <!-- Sponsors -->
+        <div class="sponsors_header">
 
+            <img src="{{sections.sponsors.sponsor_header.img}}"
+                 alt="{{sections.sponsors.sponsor_header.alt}}"
+                 title="{{sections.sponsors.sponsor_header.alt}}"/>
+
+        </div>
+
+        <img class="sponsors__title--presenting"
+             src="{{localizedCdn()}}{{sections.sponsors.presenting_sponsor_image.img}}"
+             alt="{{sections.sponsors.presenting_sponsor_image.alt}}"
+             title="{{sections.sponsors.presenting_sponsor_image.alt}}"/>
+
+        <img class="sponsors__presenting-sponsor"
+             src="{{localizedCdn()}}{{sections.sponsors.presenting_sponsor.img}}"
+             alt="{{localizedCdn()}}{{sections.sponsors.presenting_sponsor.alt}}"
+             title="{{localizedCdn()}}{{sections.sponsors.presenting_sponsor.alt}}"/>
+
+        <img class="sponsors__title--patrons"
+             src="{{localizedCdn()}}{{sections.sponsors.patron_sponsors_image.img}}"
+             alt="{{sections.sponsors.patron_sponsors_image.alt}}"
+             title="{{sections.sponsors.patron_sponsors_image.alt}}"/>
+
+        <ul class="sponsor-list">
+            {%for sponsor in sections.sponsors.patron_sponsors %}
+            <li>
+                <img src="{{sponsor.img}}"
+                     alt="{{sponsor.alt}}"
+                     title="{{sponsor.alt}}"
+                />
+            </li>
+            {%endfor%}
+        </ul>
+    </section>
 </div>
+
+<footer>
+    <div class="footer-lockup">
+        <img src="/img/footer/footer-top-bar.png"/>
+        <img src="/img/footer/footer-text.png" class="footer-lockup--drinks"
+             alt="{{sections.footer.food_copy}}"
+             title="{{sections.footer.food_copy}}"/>
+        <img src="/img/footer/footer-skull.png"
+             alt="{{sections.footer.skull_copy}}"
+             title="{{sections.footer.skull_copy}}"
+        />
+    </div>
+
+    <div class="footer__container">
+        &copy;2017 {{longSiteTitle}}
+    </div>
+</footer>
 
 <div id="overlay" style="display:none;">
     <a id="overlayClose" href="#" class="overlay__close">Close</a>

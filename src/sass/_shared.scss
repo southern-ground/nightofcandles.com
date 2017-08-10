@@ -41,6 +41,11 @@ $xs: 480px;
   font-weight: 700;
 }
 
+.off{
+  display: inline-block;
+  margin-left: -9999px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;

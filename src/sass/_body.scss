@@ -6,16 +6,15 @@ html {
     font-family: 'Montserrat', sans-serif;
     height: 100%;
     width: 100%;
+    position: relative;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     color: $ink;
     background-color: $canvas;
     padding: 0;
     margin: 0;
-    background-image: url(../img/barrel-background.jpg);
-    background-position: center 30%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #000 url(../img/halftone.png) center top repeat;
+    background: url(../img/drips.png) center top repeat-x, #000 url(../img/halftone.png) center top repeat;
     &.no-scroll {
       overflow: hidden;
     }
@@ -25,7 +24,8 @@ html {
     div#content {
       position: relative;
       width: 100%;
-      max-width: 1024px;
+      max-width: $desktop;
+      margin: 0 auto;
       section {
         background: transparent;
         display: flex;
@@ -33,8 +33,104 @@ html {
         justify-content: center;
         align-content: center;
         align-items: center;
-        height: 100vh;
-        min-height:500px;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        .header__image {
+          margin: 25px 0 0 0;
+          width: 100%;
+          max-width: 740px;
+          height: auto;
+        }
+        .tickets-list {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          flex-flow: row;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          @media screen and (max-width: 700px) {
+            flex-flow: column;
+          }
+          .ticket-list-item {
+            flex-basis: 50%;
+            a {
+              overflow: hidden;
+              width: 340px;
+              height: 225px;
+              display: inline-block;
+              &:hover {
+                background-position-y: -216px;
+              }
+            }
+            .tickets {
+              background-image: url(../img/tickets/tickets.png);
+            }
+            .download {
+              background-image: url(../img/tickets/download.png);
+            }
+          }
+        }
+        .sponsors {
+          &_header {
+            width: 100%;
+            max-width: 689px;
+            height: 54px;
+            margin: 20px auto 0 auto;
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            &--image {
+              margin: 20px 0;
+              width: 100%;
+              max-width: 689px;
+              overflow: auto;
+              padding: 0 20px;
+              img {
+                width: 100%;
+                height: auto;
+                padding: 0 20px;
+
+              }
+            }
+          }
+          &__title {
+            &--presenting {
+              margin: 20px 0 0 0;
+            }
+            &--patrons {
+              margin: 30px 0 0 0;
+            }
+          }
+          &__presenting-sponsor {
+            margin: 30px 0 0 0;
+          }
+        }
+        .sponsor-list {
+          list-style: none;
+          padding: 0;
+          margin: 30px 0 0 0;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-content: center;
+          align-items: center;
+          li {
+            flex-basis: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 10px;
+          }
+        }
       }
     }
     div#overlay {
@@ -71,6 +167,16 @@ html {
         height: 40px;
         background: url(../img/close-x.svg);
       }
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 88px;
+      background: url(../img/footer/candles.png) left top repeat-x;
     }
   }
 }
