@@ -1,0 +1,19 @@
+{
+  "longSiteTitle": "Night of Candles",
+  "canonicalUrl": "http://nightofcandles.com",
+  "cdn": {
+    "prod": "http://nightofcandles.com.s3-website-us-east-1.amazonaws.com",
+    "stage": "http://stage.nightofcandles.com.s3-website-us-east-1.amazonaws.com"
+  },
+  "social": {
+    "socialMediaImage": "http://tbd",
+    "platformUrls": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  "tracking": {
+    "googleUA": "UA-XXXXXXXX-XX"
+  }
+}

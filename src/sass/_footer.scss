@@ -1,0 +1,19 @@
+@import "_shared";
+
+footer {
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  font-size: 0.8rem;
+  line-height: 20px;
+  .footer {
+    &__container {
+      font-weight: bold;
+      text-transform: uppercase;
+      @include media-desktop {
+        max-width: $desktop;
+        margin: 0 auto;
+      }
+    }
+  }
+}
