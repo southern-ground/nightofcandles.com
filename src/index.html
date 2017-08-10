@@ -178,7 +178,7 @@
         <!-- Sponsors -->
         <div class="sponsors_header">
 
-            <img src="{{sections.sponsors.sponsor_header.img}}"
+            <img src="{{localizedCdn()}}{{sections.sponsors.sponsor_header.img}}"
                  alt="{{sections.sponsors.sponsor_header.alt}}"
                  title="{{sections.sponsors.sponsor_header.alt}}"/>
 
@@ -202,7 +202,7 @@
         <ul class="sponsor-list">
             {%for sponsor in sections.sponsors.patron_sponsors %}
             <li>
-                <img src="{{sponsor.img}}"
+                <img src="{{localizedCdn()}}{{sponsor.img}}"
                      alt="{{sponsor.alt}}"
                      title="{{sponsor.alt}}"
                 />
@@ -214,11 +214,11 @@
 
 <footer>
     <div class="footer-lockup">
-        <img src="/img/footer/footer-top-bar.png"/>
-        <img src="/img/footer/footer-text.png" class="footer-lockup--drinks"
+        <img src="{{localizedCdn()}}/img/footer/footer-top-bar.png"/>
+        <img src="{{localizedCdn()}}/img/footer/footer-text.png" class="footer-lockup--drinks"
              alt="{{sections.footer.food_copy}}"
              title="{{sections.footer.food_copy}}"/>
-        <img src="/img/footer/footer-skull.png"
+        <img src="{{localizedCdn()}}/img/footer/footer-skull.png"
              alt="{{sections.footer.skull_copy}}"
              title="{{sections.footer.skull_copy}}"
         />
