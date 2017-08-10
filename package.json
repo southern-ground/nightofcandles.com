@@ -1,5 +1,6 @@
 {
   "name": "nightofcandles.com",
+  "repository": "https://github.com/southern-ground/nightofcandles.com",
   "version": "1.0.0",
   "description": "Initial splash page for the Night of Candles gig.",
   "main": "index.js",
