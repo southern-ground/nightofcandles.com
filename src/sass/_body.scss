@@ -56,6 +56,7 @@ html {
             flex-flow: column;
           }
           .ticket-list-item {
+            cursor: pointer;
             flex-basis: 50%;
             a {
               overflow: hidden;
