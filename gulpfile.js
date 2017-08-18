@@ -131,6 +131,13 @@ gulp.task('copy:video', function (done) {
         .pipe(gulp.dest(dirs.dist + "/video/"));
 });
 
+gulp.task('copy:icons', function (done) {
+    return gulp.src([dirs.src + "/*.png"], {
+        dot: false
+    })
+        .pipe(gulp.dest(dirs.dist));
+});
+
 gulp.task('copy', function (done) {
     runSequence([
         'copy:images',
@@ -139,7 +146,8 @@ gulp.task('copy', function (done) {
         'copy:fonts',
         'copy:cssFonts',
         'copy:docs',
-        'copy:video'
+        'copy:video',
+        'copy:icons'
     ], done);
 });
 
