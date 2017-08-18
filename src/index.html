@@ -107,14 +107,18 @@
 <div id="content">
     <section>
         <!-- Header -->
-        <h1><img
+        <a href="{{sections.header.link}}"
+           class="suppressed"
+           target="_blank">{{sections.header.link_text|safe}}</a>
+        <img
                 class="header__image"
                 alt="{{sections.header.alt}}"
                 src="{{localizedCdn()}}{{sections.header.img}}">
-            <a href="{{sections.header.link}}"
-               class="off"
-               target="_blank">{{sections.header.link_text}}</a>
-        </h1>
+        <div class="suppressed">
+            {% for copy in sections.header.body_copy %}
+            {{copy|safe}}
+            {% endfor %}
+        </div>
     </section>
     <section>
         <!-- Tickets -->
