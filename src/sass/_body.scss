@@ -48,16 +48,25 @@ html {
           list-style: none;
           display: flex;
           flex-wrap: wrap;
-          flex-flow: row;
-          justify-content: center;
+          flex-flow: column;
+          justify-content: top;
           align-items: center;
           align-content: center;
-          @media screen and (max-width: 700px) {
-            flex-flow: column;
+          @include media-tablet-portrait{
+            flex-direction: row;
+            justify-content: center;
           }
           .ticket-list-item {
             cursor: pointer;
-            flex-basis: 50%;
+            &.row-only{
+              display: none;
+              @include media-tablet-portrait{
+                display: inline-block;
+              }
+            }
+            @include media-tablet-portrait{
+              flex-basis: 50%;
+            }
             a {
               overflow: hidden;
               width: 340px;
