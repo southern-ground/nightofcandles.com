@@ -44,17 +44,17 @@
     <!-- for Facebook -->
     <meta property="og:title" content="{{longSiteTitle}}"/>
     <meta property="og:type" content="profile"/>
-    <meta property="og:image" content="{{social.socialMediaImage}}"/>
+    <meta property="og:image" content="{{site.canonicalUrl}}{{social.socialMediaImage}}"/>
     <meta property="og:url" content="{{canonicalUrl}}"/>
     <meta property="og:description"
-          content=""/>
+          content="{{social.description}}"/>
 
     <!-- for Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Southern Reel"/>
     <meta name="twitter:description"
-          content=""/>
-    <meta name="twitter:image" content="{{social.socialMediaImage}}"/>
+          content="{{social.description}}"/>
+    <meta name="twitter:image" content="{{site.canonicalUrl}}{{social.socialMediaImage}}"/>
 
     <!-- for Google -->
     <link rel='author' href='https://plus.google.com/u/0/103429485426405859499/'/>
@@ -158,13 +158,10 @@
     </section>
     <!-- Sponsors
     <section>
-
         <div class="sponsors_header">
-
             <img src="{{localizedCdn()}}{{sections.sponsors.sponsor_header.img}}"
                  alt="{{sections.sponsors.sponsor_header.alt}}"
                  title="{{sections.sponsors.sponsor_header.alt}}"/>
-
         </div>
 
         <img class="sponsors__title--presenting"
