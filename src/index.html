@@ -44,7 +44,9 @@
     <!-- for Facebook -->
     <meta property="og:title" content="{{longSiteTitle}}"/>
     <meta property="og:type" content="profile"/>
-    <meta property="og:image" content="{{site.canonicalUrl}}{{social.socialMediaImage}}"/>
+    <meta property="og:image" content="{{site.canonicalUrl}}{{social.image.url}}" />
+    <meta property="og:image:width" contet="{{social.image.width}}">
+    <meta property="og:image:height" content="{{social.image.height}}" />
     <meta property="og:url" content="{{canonicalUrl}}"/>
     <meta property="og:description"
           content="{{social.description}}"/>
@@ -54,7 +56,7 @@
     <meta name="twitter:title" content="Southern Reel"/>
     <meta name="twitter:description"
           content="{{social.description}}"/>
-    <meta name="twitter:image" content="{{site.canonicalUrl}}{{social.socialMediaImage}}"/>
+    <meta name="twitter:image" content="{{site.canonicalUrl}}{{social.image.url}}"/>
 
     <!-- for Google -->
     <link rel='author' href='https://plus.google.com/u/0/103429485426405859499/'/>

@@ -110,7 +110,11 @@
     }
   },
   "social": {
-    "socialMediaImage": "/img/night-of-candles-social-share.jpg",
+    "image":{
+      "url": "/img/night-of-candles-social-share.jpg",
+      "width": "1200",
+      "height": "1200"
+    },
     "description": "Camp Southern Ground's Sixth Annual Night of Candles: A Special Benefit Show Featuring Zac Brown Band. October 14, 2017 at Southern Ground Amphitheater, Fayetteville, Georgia. Doors open at 6pm. Only 1500 tickets! Tickets on sale August 25th, 2017 with presale access on August 22nd. A charity event benefiting Camp Southern Ground (http://campsouthernground.org), a 501(c)(3) Not For Profit organization.",
     "platforms": {
       "facebook": {
