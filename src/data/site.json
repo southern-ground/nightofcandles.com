@@ -1,16 +1,52 @@
 {
-  "longSiteTitle": "Night of Candles",
-  "canonicalUrl": "http://nightofcandles.com",
-  "cdn": {
-    "prod": "http://nightofcandles.com.s3-website-us-east-1.amazonaws.com",
-    "stage": "http://stage.nightofcandles.com.s3-website-us-east-1.amazonaws.com"
+  "site":{
+    "title": "Night of Candles",
+    "description": "Camp Southern Ground's Sixth Annual Night of Candles. A special benefit show.",
+    "canonicalUrl": "http://nightofcandles.com",
+    "cdn": {
+      "prod": "http://nightofcandles.com.s3-website-us-east-1.amazonaws.com",
+      "stage": "http://stage.nightofcandles.com.s3-website-us-east-1.amazonaws.com"
+    },
+    "author": "ferris",
+    "tracking": {
+      "google":{
+        "googleUA": "UA-XXXXXXXX-XX"
+      }
+    }
   },
   "sections": {
     "header":{
-      "img": "/img/fayetteville_header_16.png",
-      "alt": "Southern Ground Presents Night Of Chandles, Benefiting Camp Southern Ground - Featuring Zac Brown Band - Oct 15, 2016 - Southern Ground Amphitheater, Fayetteville, GA",
+      "img": "/img/title.png",
+      "alt": "Camp Southern Ground's Sixth Annual Night of Candles. A special benefit show.",
       "link": "http://www.campsouthernground.org",
-      "link_text": "Camp Southern Ground"
+      "link_text": "<h1>Camp Southern Ground's Sixth Annual Night of Candles</h1>",
+      "body_copy": [
+        "<p>A special benefit show.</p>",
+        "<p><strong>Featuring Zac Brown Band</strong></p>",
+        "<h2>October 14, 2017</h2>",
+        "<p><strong>Southern Ground Amphitheatre</strong> <br />Fayetteville, Georgia</p>",
+        "<p>Doors open at 6:00pm</p>",
+        "<p>Only 1500 tickets!</p>"
+      ]
+    },
+    "tickets":{
+      "link_copy": "Purchase Tickets",
+      "link_alt": "Purchase Tickets Here",
+      "link_href": "http://southerngroundtailgate.shop.ticketstoday.com/",
+      "additional_copy": [
+        "<p>Tickets on Sale August 25th.</p>",
+        "<p>Zamily Presale August 22nd.</p>"
+      ]
+    },
+    "download":{
+      "link_copy": "Download Form",
+      "link_alt": "Learn how to become a sponsor!",
+      "link_href": "/media/tbd.pdf",
+      "additional_copy": [
+        "<p>Charity Event Benefiting <a href='http://campsouthernground.org' target='_blank'>Camp Southern Ground.</a></p>",
+        "<p>Become a Sponsor!</p>",
+        "<p><a href='http://campsouthernground.org' target='_blank'>Camp Southern Ground.</a> A 501(c)(3) Not-for-Profit Organization.</p>"
+      ]
     },
     "sponsors": {
       "sponsor_header":{
@@ -75,13 +111,19 @@
   },
   "social": {
     "socialMediaImage": "http://tbd",
-    "platformUrls": {
-      "facebook": "https://facebook.com",
-      "instagram": "https://instagram.com",
-      "twitter": "https://twitter.com"
+    "platforms": {
+      "facebook": {
+        "name": "Facebook",
+        "url": "https://facebook.com"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "url": "https://instagram.com"
+      },
+      "twitter": {
+        "name": "Twitter",
+        "url": "https://twitter.com"
+      }
     }
-  },
-  "tracking": {
-    "googleUA": "UA-XXXXXXXX-XX"
   }
 }
