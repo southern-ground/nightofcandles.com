@@ -30,16 +30,15 @@ footer {
       align-items: center;
       &--drinks{
         margin: 20px 0;
-        width: 100%;
+        width: 90%;
+        @include media-small{
+          width: 100%;
+        }
+        height: auto;
         max-width: 509px;
         overflow: auto;
         padding: 0 20px;
-        img{
-          width: 100%;
-          height: auto;
-          padding: 0 20px;
-
-        }
+        
       }
 
     }
