@@ -7,6 +7,7 @@ footer {
     &__container {
       font-weight: bold;
       text-transform: uppercase;
+      color: $canvas;
       @include media-desktop {
         max-width: $desktop;
         margin: 0 auto;
@@ -20,7 +21,7 @@ footer {
     &-lockup{
       width: 100%;
       max-width: 678px;
-      margin: 20px auto 70px auto;
+      margin: 20px auto 170px auto;
       display: flex;
       overflow: hidden;
       flex-direction: column;
