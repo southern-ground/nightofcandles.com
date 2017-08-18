@@ -1,9 +1,3 @@
-var zbd = window.zbd = {
-    init: function () {
-
-    }
-};
-
 window.mobileAndTabletcheck = function () {
     var check = false;
     (function (a) {
@@ -17,7 +11,3 @@ window.mobileAndTabletcheck = function () {
 
     return check;
 };
-
-$(document).ready(function () {
-    zbd.init();
-});
