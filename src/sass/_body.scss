@@ -68,19 +68,27 @@ html {
               flex-basis: 50%;
             }
             a {
-              overflow: hidden;
-              width: 340px;
-              height: 225px;
               display: inline-block;
-              &:hover {
-                background-position-y: -216px;
-              }
             }
             .tickets {
-              background-image: url(../img/tickets/tickets.png);
+              background-image: url(../img/sprites/tickets.png);
+              width: 345px;
+              height: 219px;
+              &:hover {
+                background-position-y: 222px;
+              }
             }
             .download {
-              background-image: url(../img/tickets/download.png);
+              background-image: url(../img/sprites/download.png);
+              width: 304px;
+              height: 219px;
+              margin: 0 28px 0 0;
+              @include media-tablet-portrait{
+                margin: 0;
+              }
+              &:hover {
+                background-position-y: 222px;
+              }
             }
           }
         }
