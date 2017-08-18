@@ -125,18 +125,34 @@
         <ul class="tickets-list">
             <li class="ticket-list-item">
                 <a class="tickets"
-                   href="http://southerngroundtailgate.shop.ticketstoday.com/"
-                   target="_blank">
-                    <span class="off">Tickets Available Now!</span>
+                   href="{{sections.tickets.link_href}}"
+                   target="_blank"
+                   title="{{sections.tickets.link_title}}">
+                    <span class="suppressed">{{sections.tickets.link_copy}}</span>
                 </a>
+                <div class="suppressed">
+                    {% for copy in sections.tickets.additional_copy %}
+                    {{copy|safe}}
+                    {% endfor %}
+                </div>
+            </li>
+            <li class="ticket-list-item row-only">
+                <img src="{{localizedCdn()}}/img/separator.png"/>
             </li>
             <li class="ticket-list-item">
                 <a class="download"
-                   href="https://zacbrownbandcom.s3.amazonaws.com/2016NightofCandlesSponsorForm.pdf"
-                   target="_blank">
-                    <span class="off">Charity event benefiting Camp Southern Ground - Become a sponsor! Download Form -
-                        Campsoutherground.org, a 501(c)(3) not-for-profit organization</span>
+                   href="{{localizedCdn()}}{{sections.download.link_href}}"
+                   target="_blank"
+                   title="{{sections.download.link_alt}}"
+                >
+                    <span class="suppressed">{{sections.download.link_copy}}</span>
                 </a>
+                <div class="suppressed">
+                    {% for copy in sections.download.additional_copy %}
+                    {{copy|safe}}
+                    {% endfor %}
+
+                </div>
             </li>
         </ul>
     </section>
