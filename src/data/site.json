@@ -41,7 +41,7 @@
     "download":{
       "link_copy": "Download Form",
       "link_alt": "Learn how to become a sponsor!",
-      "link_href": "/media/tbd.pdf",
+      "link_href": "/media/2017_Night_ of_Candles_Sponsor_Form.pdf",
       "additional_copy": [
         "<p>Charity Event Benefiting <a href='http://campsouthernground.org' target='_blank'>Camp Southern Ground.</a></p>",
         "<p>Become a Sponsor!</p>",
@@ -110,7 +110,7 @@
     }
   },
   "social": {
-    "socialMediaImage": "http://tbd",
+    "socialMediaImage": "/img/social-media-share.jpg",
     "platforms": {
       "facebook": {
         "name": "Facebook",

@@ -138,6 +138,13 @@ gulp.task('copy:icons', function (done) {
         .pipe(gulp.dest(dirs.dist));
 });
 
+gulp.task('copy:media', function (done) {
+    return gulp.src([dirs.src + "/media/**/*.*"], {
+        dot: false
+    })
+        .pipe(gulp.dest(dirs.dist + "/media/"));
+});
+
 gulp.task('copy', function (done) {
     runSequence([
         'copy:images',
@@ -147,7 +154,8 @@ gulp.task('copy', function (done) {
         'copy:cssFonts',
         'copy:docs',
         'copy:video',
-        'copy:icons'
+        'copy:icons',
+        'copy:media'
     ], done);
 });
 

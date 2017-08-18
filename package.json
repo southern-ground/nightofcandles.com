@@ -5,7 +5,7 @@
   "description": "Initial splash page for the Night of Candles gig.",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./dist && mkdir ./dist && mkdir ./dist/js && mkdir ./dist/js/vendor && mkdir ./dist/css/ && mkdir ./dist/css/vendor && mkdir ./dist/css/vendor/icon-font && mkdir ./dist/img",
+    "clean": "rm -rf ./dist && mkdir ./dist && mkdir ./dist/js && mkdir ./dist/js/vendor && mkdir ./dist/css/ && mkdir ./dist/css/vendor && mkdir ./dist/css/vendor/icon-font && mkdir ./dist/img && mkdir ./dist/media",
     "bootstrap": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/css/vendor/",
     "normalize": "cp ./node_modules/normalize.css/normalize.css ./dist/css/vendor/",
     "underscore": "cp ./node_modules/underscore/underscore-min.js ./dist/js/vendor/",
