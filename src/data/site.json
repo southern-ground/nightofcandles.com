@@ -1,7 +1,7 @@
 {
   "site":{
     "title": "Night of Candles",
-    "description": "Camp Southern Ground's Sixth Annual Night of Candles. A special benefit show.",
+    "description": "Camp Southern Ground's Seventh Annual Night of Candles. A special benefit show.",
     "canonicalUrl": "http://nightofcandles.com",
     "cdn": {
       "prod": "http://nightofcandles.com.s3-website-us-east-1.amazonaws.com",
@@ -17,13 +17,13 @@
   "sections": {
     "header":{
       "img": "/img/title.png",
-      "alt": "Camp Southern Ground's Sixth Annual Night of Candles. A special benefit show.",
+      "alt": "Camp Southern Ground's Seventh Annual Night of Candles. A special benefit show.",
       "link": "http://www.campsouthernground.org",
       "link_text": "<h1>Camp Southern Ground's Sixth Annual Night of Candles</h1>",
       "body_copy": [
         "<p>A special benefit show.</p>",
         "<p><strong>Featuring Zac Brown Band</strong></p>",
-        "<h2>October 14, 2017</h2>",
+        "<h2>October 13, 2018</h2>",
         "<p><strong>Southern Ground Amphitheatre</strong> <br />Fayetteville, Georgia</p>",
         "<p>Doors open at 6:00pm</p>",
         "<p>Only 1500 tickets!</p>"
@@ -34,14 +34,15 @@
       "link_alt": "Purchase Tickets Here",
       "link_href": "http://southerngroundtailgate.shop.ticketstoday.com/",
       "additional_copy": [
-        "<p>Tickets on Sale August 25th.</p>",
-        "<p>Presale Access August 22nd.</p>"
+        "<p>On Sale Augst 2.</p>",
+        "<p>Presale Augst 1.</p>",
+        "<p>Zamily Presale July 31.</p>"
       ]
     },
     "download":{
       "link_copy": "Download Form",
       "link_alt": "Learn how to become a sponsor!",
-      "link_href": "/media/2017_Night_ of_Candles_Sponsor_Form.pdf",
+      "link_href": "/media/2018_Night_of_Candles_Sponsor_Form.pdf",
       "additional_copy": [
         "<p>Charity Event Benefiting <a href='http://campsouthernground.org' target='_blank'>Camp Southern Ground.</a></p>",
         "<p>Become a Sponsor!</p>",
@@ -105,7 +106,7 @@
       ]
     },
     "footer": {
-      "food_copy": "Food + Adult Beverages Will Be Available For Purchase",
+      "food_copy": "Food And Adult Beverages Will Be Available For Purchase",
       "skull_copy": "Night of Candles with Zac Brown Band"
     }
   },
@@ -115,7 +116,7 @@
       "width": "1127",
       "height": "590"
     },
-    "description": "Camp Southern Ground's Sixth Annual Night of Candles: A Special Benefit Show Featuring Zac Brown Band. October 14, 2017 at Southern Ground Amphitheater, Fayetteville, Georgia. Doors open at 6pm. Only 1500 tickets! Tickets on sale August 25th, 2017 with presale access on August 22nd. A charity event benefiting Camp Southern Ground (http://campsouthernground.org), a 501(c)(3) Not For Profit organization.",
+    "description": "Camp Southern Ground's Seventh Annual Night of Candles: A Special Benefit Show Featuring Zac Brown Band. October 13, 2018 at Southern Ground Amphitheater, Fayetteville, Georgia. Doors open at 6pm. Only 1500 tickets! Tickets on sale August 25th, 2017 with presale access on August 22nd. A charity event benefiting Camp Southern Ground (http://campsouthernground.org), a 501(c)(3) Not For Profit organization.",
     "platforms": {
       "facebook": {
         "name": "Facebook",

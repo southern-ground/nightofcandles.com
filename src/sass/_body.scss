@@ -72,9 +72,9 @@ html {
             .tickets {
               background-image: url(../img/sprites/tickets.png);
               width: 345px;
-              height: 219px;
+              height: 210px;
               &:hover {
-                background-position-y: 222px;
+                background-position-y: -217px;
               }
             }
             .download {
