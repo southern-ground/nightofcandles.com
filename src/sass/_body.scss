@@ -73,6 +73,29 @@ html {
               background-image: url(../img/sprites/tickets.png);
               width: 345px;
               height: 210px;
+
+              &.zamily-presale{
+                background-position-y: -426px;
+                &:hover{
+                  background-position-y: -643px;
+                }
+              }
+
+              &.presale{
+                height: 209px;
+                background-position-y: -852px;
+                &:hover{
+                  background-position-y: -1069px;
+                }
+              }
+
+              &.on-sale{
+                background-position-y: -1278px;
+                &:hover{
+                  background-position-y: -1495px;
+                }
+              }
+
               &:hover {
                 background-position-y: -217px;
               }
